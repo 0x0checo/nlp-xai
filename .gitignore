@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data & models (IMPORTANT)
+data/
+datasets/
+checkpoints/
+models/
+*.pt
+*.ckpt
+*.bin
+
+# Weights & Biases
+wandb/
+
+# HuggingFace cache
+.cache/
